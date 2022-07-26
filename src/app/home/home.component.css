@@ -1,0 +1,25 @@
+.logo {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: rgb(103, 225, 255);
+    position: absolute;
+    margin-top : 300px;
+    border: 7px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    height: 300px;
+    background-color: black;
+    position: relative;
+    justify-content: center;
+
+}
+
+.main{
+    height: 600px;
+    border: 7px solid black;
+}

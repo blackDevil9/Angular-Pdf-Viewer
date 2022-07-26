@@ -7,9 +7,6 @@ import { NgxExtendedPdfViewerService, pdfDefaultOptions } from 'ngx-extended-pdf
   styleUrls: ['./pdf.component.css'],
 })
 export class PdfComponent implements OnInit {
-  public page = 5;
-
-  public pageLabel: string = '';
   pdfSrc: string = '';
 
   constructor(private pdfService: NgxExtendedPdfViewerService) {

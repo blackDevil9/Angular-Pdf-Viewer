@@ -13,8 +13,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  pdfViewer() {
-    this.router.navigate(['/pdf']);
-  }
 }
