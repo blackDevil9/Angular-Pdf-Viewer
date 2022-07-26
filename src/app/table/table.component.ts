@@ -4,10 +4,10 @@ import { Observable } from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'app-ag-table',
-  templateUrl: './ag-table.component.html',
-  styleUrls: ['./ag-table.component.css'],
+  templateUrl: './table.component.html',
+  styleUrls: ['./table.component.css'],
 })
-export class AgTableComponent implements OnInit {
+export class TableComponent implements OnInit {
   public data = [
     { name: 'test', email: 'test@gmail.com', website: 'test.com' },
     { name: 'test', email: 'test@gmail.com', website: 'test.com' },

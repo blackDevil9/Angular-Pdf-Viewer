@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PdfComponent } from './pdf/pdf.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
-import { AgTableComponent } from './ag-table/ag-table.component';
+import { TableComponent } from './table/table.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, PdfComponent, AgTableComponent],
+  declarations: [AppComponent, HomeComponent, PdfComponent, TableComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
